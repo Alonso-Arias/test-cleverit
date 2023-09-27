@@ -1,0 +1,16 @@
+# Crear tareas
+p, ROL_1, /api/v1/task, POST
+
+# Obtener tareas
+p, ROL_1, /api/v1/task/findAll, GET
+p, ROL_2, /api/v1/task/findAll, GET
+
+# Obtener tarea
+p, ROL_1, /api/v1/task/*, GET
+p, ROL_2, /api/v1/task/*, GET
+
+# Actualizar tarea
+p, ROL_1, /api/v1/task, PUT
+
+# Eliminar tarea
+p, ROL_1, /api/v1/task/*, DELETE
